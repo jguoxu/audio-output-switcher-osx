@@ -18,6 +18,8 @@
 		9E026AE518BB189B0065B67C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AC418BB189B0065B67C /* Cocoa.framework */; };
 		9E026AED18BB189B0065B67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E026AEB18BB189B0065B67C /* InfoPlist.strings */; };
 		9E026AEF18BB189B0065B67C /* AudioOutputSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E026AEE18BB189B0065B67C /* AudioOutputSwitcherTests.m */; };
+		9E026AF918BB18B80065B67C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AF818BB18B80065B67C /* CoreServices.framework */; };
+		9E026AFB18BB18C10065B67C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AFA18BB18C10065B67C /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		9E026AEA18BB189B0065B67C /* AudioOutputSwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioOutputSwitcherTests-Info.plist"; sourceTree = "<group>"; };
 		9E026AEC18BB189B0065B67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E026AEE18BB189B0065B67C /* AudioOutputSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputSwitcherTests.m; sourceTree = "<group>"; };
+		9E026AF818BB18B80065B67C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		9E026AFA18BB18C10065B67C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E026AFB18BB18C10065B67C /* CoreAudio.framework in Frameworks */,
+				9E026AF918BB18B80065B67C /* CoreServices.framework in Frameworks */,
 				9E026AC518BB189B0065B67C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +101,8 @@
 		9E026AC318BB189B0065B67C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E026AFA18BB18C10065B67C /* CoreAudio.framework */,
+				9E026AF818BB18B80065B67C /* CoreServices.framework */,
 				9E026AC418BB189B0065B67C /* Cocoa.framework */,
 				9E026AE318BB189B0065B67C /* XCTest.framework */,
 				9E026AC618BB189B0065B67C /* Other Frameworks */,
