@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E026AC518BB189B0065B67C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AC418BB189B0065B67C /* Cocoa.framework */; };
+		9E026ACF18BB189B0065B67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E026ACD18BB189B0065B67C /* InfoPlist.strings */; };
+		9E026AD118BB189B0065B67C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E026AD018BB189B0065B67C /* main.m */; };
+		9E026AD518BB189B0065B67C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E026AD318BB189B0065B67C /* Credits.rtf */; };
+		9E026AD818BB189B0065B67C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E026AD718BB189B0065B67C /* AppDelegate.m */; };
+		9E026ADB18BB189B0065B67C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E026AD918BB189B0065B67C /* MainMenu.xib */; };
+		9E026ADD18BB189B0065B67C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E026ADC18BB189B0065B67C /* Images.xcassets */; };
+		9E026AE418BB189B0065B67C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AE318BB189B0065B67C /* XCTest.framework */; };
+		9E026AE518BB189B0065B67C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AC418BB189B0065B67C /* Cocoa.framework */; };
+		9E026AED18BB189B0065B67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E026AEB18BB189B0065B67C /* InfoPlist.strings */; };
+		9E026AEF18BB189B0065B67C /* AudioOutputSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E026AEE18BB189B0065B67C /* AudioOutputSwitcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E026AE618BB189B0065B67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E026AB918BB189B0065B67C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E026AC018BB189B0065B67C;
+			remoteInfo = AudioOutputSwitcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E026AC118BB189B0065B67C /* AudioOutputSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioOutputSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E026AC418BB189B0065B67C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9E026AC718BB189B0065B67C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9E026AC818BB189B0065B67C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9E026AC918BB189B0065B67C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E026ACC18BB189B0065B67C /* AudioOutputSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioOutputSwitcher-Info.plist"; sourceTree = "<group>"; };
+		9E026ACE18BB189B0065B67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E026AD018BB189B0065B67C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E026AD218BB189B0065B67C /* AudioOutputSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioOutputSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		9E026AD418BB189B0065B67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9E026AD618BB189B0065B67C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E026AD718BB189B0065B67C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E026ADA18BB189B0065B67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9E026ADC18BB189B0065B67C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E026AE218BB189B0065B67C /* AudioOutputSwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioOutputSwitcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E026AE318BB189B0065B67C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9E026AEA18BB189B0065B67C /* AudioOutputSwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioOutputSwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		9E026AEC18BB189B0065B67C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E026AEE18BB189B0065B67C /* AudioOutputSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputSwitcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E026ABE18BB189B0065B67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E026AC518BB189B0065B67C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E026ADF18BB189B0065B67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E026AE518BB189B0065B67C /* Cocoa.framework in Frameworks */,
+				9E026AE418BB189B0065B67C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E026AB818BB189B0065B67C = {
+			isa = PBXGroup;
+			children = (
+				9E026ACA18BB189B0065B67C /* AudioOutputSwitcher */,
+				9E026AE818BB189B0065B67C /* AudioOutputSwitcherTests */,
+				9E026AC318BB189B0065B67C /* Frameworks */,
+				9E026AC218BB189B0065B67C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E026AC218BB189B0065B67C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E026AC118BB189B0065B67C /* AudioOutputSwitcher.app */,
+				9E026AE218BB189B0065B67C /* AudioOutputSwitcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E026AC318BB189B0065B67C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E026AC418BB189B0065B67C /* Cocoa.framework */,
+				9E026AE318BB189B0065B67C /* XCTest.framework */,
+				9E026AC618BB189B0065B67C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E026AC618BB189B0065B67C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E026AC718BB189B0065B67C /* AppKit.framework */,
+				9E026AC818BB189B0065B67C /* CoreData.framework */,
+				9E026AC918BB189B0065B67C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9E026ACA18BB189B0065B67C /* AudioOutputSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				9E026AD618BB189B0065B67C /* AppDelegate.h */,
+				9E026AD718BB189B0065B67C /* AppDelegate.m */,
+				9E026AD918BB189B0065B67C /* MainMenu.xib */,
+				9E026ADC18BB189B0065B67C /* Images.xcassets */,
+				9E026ACB18BB189B0065B67C /* Supporting Files */,
+			);
+			path = AudioOutputSwitcher;
+			sourceTree = "<group>";
+		};
+		9E026ACB18BB189B0065B67C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E026ACC18BB189B0065B67C /* AudioOutputSwitcher-Info.plist */,
+				9E026ACD18BB189B0065B67C /* InfoPlist.strings */,
+				9E026AD018BB189B0065B67C /* main.m */,
+				9E026AD218BB189B0065B67C /* AudioOutputSwitcher-Prefix.pch */,
+				9E026AD318BB189B0065B67C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E026AE818BB189B0065B67C /* AudioOutputSwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E026AEE18BB189B0065B67C /* AudioOutputSwitcherTests.m */,
+				9E026AE918BB189B0065B67C /* Supporting Files */,
+			);
+			path = AudioOutputSwitcherTests;
+			sourceTree = "<group>";
+		};
+		9E026AE918BB189B0065B67C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E026AEA18BB189B0065B67C /* AudioOutputSwitcherTests-Info.plist */,
+				9E026AEB18BB189B0065B67C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E026AC018BB189B0065B67C /* AudioOutputSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E026AF218BB189B0065B67C /* Build configuration list for PBXNativeTarget "AudioOutputSwitcher" */;
+			buildPhases = (
+				9E026ABD18BB189B0065B67C /* Sources */,
+				9E026ABE18BB189B0065B67C /* Frameworks */,
+				9E026ABF18BB189B0065B67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioOutputSwitcher;
+			productName = AudioOutputSwitcher;
+			productReference = 9E026AC118BB189B0065B67C /* AudioOutputSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E026AE118BB189B0065B67C /* AudioOutputSwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E026AF518BB189B0065B67C /* Build configuration list for PBXNativeTarget "AudioOutputSwitcherTests" */;
+			buildPhases = (
+				9E026ADE18BB189B0065B67C /* Sources */,
+				9E026ADF18BB189B0065B67C /* Frameworks */,
+				9E026AE018BB189B0065B67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E026AE718BB189B0065B67C /* PBXTargetDependency */,
+			);
+			name = AudioOutputSwitcherTests;
+			productName = AudioOutputSwitcherTests;
+			productReference = 9E026AE218BB189B0065B67C /* AudioOutputSwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E026AB918BB189B0065B67C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Guo Xu (Jason)-JGUO";
+				TargetAttributes = {
+					9E026AE118BB189B0065B67C = {
+						TestTargetID = 9E026AC018BB189B0065B67C;
+					};
+				};
+			};
+			buildConfigurationList = 9E026ABC18BB189B0065B67C /* Build configuration list for PBXProject "AudioOutputSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E026AB818BB189B0065B67C;
+			productRefGroup = 9E026AC218BB189B0065B67C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E026AC018BB189B0065B67C /* AudioOutputSwitcher */,
+				9E026AE118BB189B0065B67C /* AudioOutputSwitcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E026ABF18BB189B0065B67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E026ACF18BB189B0065B67C /* InfoPlist.strings in Resources */,
+				9E026ADD18BB189B0065B67C /* Images.xcassets in Resources */,
+				9E026AD518BB189B0065B67C /* Credits.rtf in Resources */,
+				9E026ADB18BB189B0065B67C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E026AE018BB189B0065B67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E026AED18BB189B0065B67C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E026ABD18BB189B0065B67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E026AD818BB189B0065B67C /* AppDelegate.m in Sources */,
+				9E026AD118BB189B0065B67C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E026ADE18BB189B0065B67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E026AEF18BB189B0065B67C /* AudioOutputSwitcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E026AE718BB189B0065B67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E026AC018BB189B0065B67C /* AudioOutputSwitcher */;
+			targetProxy = 9E026AE618BB189B0065B67C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E026ACD18BB189B0065B67C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E026ACE18BB189B0065B67C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E026AD318BB189B0065B67C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E026AD418BB189B0065B67C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9E026AD918BB189B0065B67C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E026ADA18BB189B0065B67C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9E026AEB18BB189B0065B67C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E026AEC18BB189B0065B67C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E026AF018BB189B0065B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9E026AF118BB189B0065B67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E026AF318BB189B0065B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputSwitcher/AudioOutputSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "AudioOutputSwitcher/AudioOutputSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E026AF418BB189B0065B67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputSwitcher/AudioOutputSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "AudioOutputSwitcher/AudioOutputSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E026AF618BB189B0065B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioOutputSwitcher.app/Contents/MacOS/AudioOutputSwitcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputSwitcher/AudioOutputSwitcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AudioOutputSwitcherTests/AudioOutputSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9E026AF718BB189B0065B67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioOutputSwitcher.app/Contents/MacOS/AudioOutputSwitcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioOutputSwitcher/AudioOutputSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "AudioOutputSwitcherTests/AudioOutputSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E026ABC18BB189B0065B67C /* Build configuration list for PBXProject "AudioOutputSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E026AF018BB189B0065B67C /* Debug */,
+				9E026AF118BB189B0065B67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E026AF218BB189B0065B67C /* Build configuration list for PBXNativeTarget "AudioOutputSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E026AF318BB189B0065B67C /* Debug */,
+				9E026AF418BB189B0065B67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E026AF518BB189B0065B67C /* Build configuration list for PBXNativeTarget "AudioOutputSwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E026AF618BB189B0065B67C /* Debug */,
+				9E026AF718BB189B0065B67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E026AB918BB189B0065B67C /* Project object */;
+}
