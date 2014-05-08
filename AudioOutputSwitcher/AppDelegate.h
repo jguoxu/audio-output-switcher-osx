@@ -7,9 +7,18 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CoreServices/CoreServices.h>
+#import <CoreAudio/CoreAudio.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    NSStatusItem * statusItem;
+    NSArray *audioPortList;
+}
 
+@property (nonatomic, strong) NSStatusItem * statusItem;
+@property (nonatomic, strong) NSArray *audioPortList;
+@property (assign) IBOutlet NSMenu *statusMenu;
 @property (assign) IBOutlet NSWindow *window;
 
 @end

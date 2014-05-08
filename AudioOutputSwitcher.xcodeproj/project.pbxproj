@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		677B539E191B48D100DA3457 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677B539D191B48D100DA3457 /* Carbon.framework */; };
 		9E026AC518BB189B0065B67C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AC418BB189B0065B67C /* Cocoa.framework */; };
 		9E026ACF18BB189B0065B67C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E026ACD18BB189B0065B67C /* InfoPlist.strings */; };
 		9E026AD118BB189B0065B67C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E026AD018BB189B0065B67C /* main.m */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		677B539D191B48D100DA3457 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		9E026AC118BB189B0065B67C /* AudioOutputSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioOutputSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E026AC418BB189B0065B67C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9E026AC718BB189B0065B67C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677B539E191B48D100DA3457 /* Carbon.framework in Frameworks */,
 				9E026AFB18BB18C10065B67C /* CoreAudio.framework in Frameworks */,
 				9E026AF918BB18B80065B67C /* CoreServices.framework in Frameworks */,
 				9E026AC518BB189B0065B67C /* Cocoa.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		9E026AC318BB189B0065B67C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				677B539D191B48D100DA3457 /* Carbon.framework */,
 				9E026AFA18BB18C10065B67C /* CoreAudio.framework */,
 				9E026AF818BB18B80065B67C /* CoreServices.framework */,
 				9E026AC418BB189B0065B67C /* Cocoa.framework */,
@@ -472,6 +476,7 @@
 				9E026AF418BB189B0065B67C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E026AF518BB189B0065B67C /* Build configuration list for PBXNativeTarget "AudioOutputSwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +485,7 @@
 				9E026AF718BB189B0065B67C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
