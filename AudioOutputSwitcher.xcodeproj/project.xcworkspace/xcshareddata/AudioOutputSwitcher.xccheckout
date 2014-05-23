@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D72111EA-83F2-47FA-A1BD-02C21DFF6E01</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AudioOutputSwitcher</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A631D08-2D23-4A13-9DCB-BAE59738207E</key>
+		<string>https://github.com/jason891107/AudioOuputSwitcher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AudioOutputSwitcher.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A631D08-2D23-4A13-9DCB-BAE59738207E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jason891107/AudioOuputSwitcher.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A631D08-2D23-4A13-9DCB-BAE59738207E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A631D08-2D23-4A13-9DCB-BAE59738207E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AudioOuputSwitcher</string>
+		</dict>
+	</array>
+</dict>
+</plist>

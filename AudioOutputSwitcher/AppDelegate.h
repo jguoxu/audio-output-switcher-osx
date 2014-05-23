@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <CoreServices/CoreServices.h>
 #import <CoreAudio/CoreAudio.h>
+#import "Utilities.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {

@@ -19,6 +19,9 @@
 
 - (void)awakeFromNib{
     
+    [Utilities copyFileFromBundleTo:@"com.jason.audioswitcher" :@"plist" :@"/Library/LaunchAgents"];
+    [Utilities loadDaemonFromPath:@"/Library/LaunchAgents/com.jason.audioswitcher.plist"];
+    
     // this should be called from awakeFromNib method
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"LaunchAsAgentApp"])
     {

@@ -21,6 +21,8 @@
 		9E026AEF18BB189B0065B67C /* AudioOutputSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E026AEE18BB189B0065B67C /* AudioOutputSwitcherTests.m */; };
 		9E026AF918BB18B80065B67C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AF818BB18B80065B67C /* CoreServices.framework */; };
 		9E026AFB18BB18C10065B67C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E026AFA18BB18C10065B67C /* CoreAudio.framework */; };
+		EFD542C4192EDC4B00EE7BBF /* com.jason.audioswitcher.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFD542C3192EDC4B00EE7BBF /* com.jason.audioswitcher.plist */; };
+		EFD542C7192EDD1400EE7BBF /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD542C6192EDD1400EE7BBF /* Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		9E026AEE18BB189B0065B67C /* AudioOutputSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputSwitcherTests.m; sourceTree = "<group>"; };
 		9E026AF818BB18B80065B67C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		9E026AFA18BB18C10065B67C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EFD542C3192EDC4B00EE7BBF /* com.jason.audioswitcher.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.jason.audioswitcher.plist; sourceTree = "<group>"; };
+		EFD542C5192EDD1400EE7BBF /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		EFD542C6192EDD1400EE7BBF /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,11 +132,14 @@
 		9E026ACA18BB189B0065B67C /* AudioOutputSwitcher */ = {
 			isa = PBXGroup;
 			children = (
+				EFD542BE192EDBB200EE7BBF /* Resources */,
 				9E026AD618BB189B0065B67C /* AppDelegate.h */,
 				9E026AD718BB189B0065B67C /* AppDelegate.m */,
 				9E026AD918BB189B0065B67C /* MainMenu.xib */,
 				9E026ADC18BB189B0065B67C /* Images.xcassets */,
 				9E026ACB18BB189B0065B67C /* Supporting Files */,
+				EFD542C5192EDD1400EE7BBF /* Utilities.h */,
+				EFD542C6192EDD1400EE7BBF /* Utilities.m */,
 			);
 			path = AudioOutputSwitcher;
 			sourceTree = "<group>";
@@ -164,6 +172,14 @@
 				9E026AEB18BB189B0065B67C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD542BE192EDBB200EE7BBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFD542C3192EDC4B00EE7BBF /* com.jason.audioswitcher.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +261,7 @@
 				9E026ACF18BB189B0065B67C /* InfoPlist.strings in Resources */,
 				9E026ADD18BB189B0065B67C /* Images.xcassets in Resources */,
 				9E026AD518BB189B0065B67C /* Credits.rtf in Resources */,
+				EFD542C4192EDC4B00EE7BBF /* com.jason.audioswitcher.plist in Resources */,
 				9E026ADB18BB189B0065B67C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD542C7192EDD1400EE7BBF /* Utilities.m in Sources */,
 				9E026AD818BB189B0065B67C /* AppDelegate.m in Sources */,
 				9E026AD118BB189B0065B67C /* main.m in Sources */,
 			);
